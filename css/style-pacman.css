@@ -1,0 +1,8 @@
+body {
+	background-image: url(../images/pacman.gif);
+}
+
+.name {
+	color: white;
+	text-shadow: 2px 2px 0.3em black;
+}

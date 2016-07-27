@@ -1,0 +1,12 @@
+body {
+	background-image: url(../images/kitty.gif);
+}
+
+.name-wrapper:before {
+	color: white;
+	opacity: 0.5;
+}
+
+.name {
+	color: white;
+}

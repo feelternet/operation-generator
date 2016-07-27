@@ -1,0 +1,8 @@
+body {
+	background-image: url(../images/rose.gif);
+}
+
+.name {
+	color: white;
+	text-shadow: 0 0 0.3em rgba(147, 91, 91, 0.5);
+}

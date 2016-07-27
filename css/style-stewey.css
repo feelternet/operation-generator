@@ -1,0 +1,8 @@
+body {
+	background-image: url(../images/stewey.gif);
+}
+
+.name {
+	color: white;
+	text-shadow: 0 0 0.3em rgba(78, 78, 78, 0.5);
+}

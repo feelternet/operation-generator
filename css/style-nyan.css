@@ -1,0 +1,13 @@
+body {
+	background-image: url(../images/nyan.gif);
+}
+
+.name-wrapper:before {
+	color: white;
+}
+
+.name {
+	color: white;
+/* 	text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black; */
+	-webkit-text-stroke: 5px black;
+}

@@ -1,0 +1,8 @@
+body {
+	background-image: url(../images/office.gif);
+	background-position-y: bottom;
+}
+
+.name {
+	color: white;
+}

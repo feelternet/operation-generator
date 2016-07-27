@@ -1,0 +1,9 @@
+body {
+	background-image: url(../images/bibi.gif);	
+}
+
+.name {
+	color: white;
+	text-shadow: 5px 5px 0 black;
+}
+

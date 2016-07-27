@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: 'chaim';
+    src: url('../font/Chaim-CondensedRegular.woff2') format('woff2'),
+         url('../font/Chaim-CondensedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+	width: 100%; height: 100%;
+	margin: 0; padding: 0;
+}
+
+body {
+	cursor: pointer;
+	background-size: cover;
+	background-position: center center;
+}
+
+html:after {
+	position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content: url(../images/voldemort.gif) url(../images/trump.gif) url(../images/stewey.gif) url(../images/smooth.gif) url(../images/sparta.gif) url(../images/rose.gif) url(../images/pumpkins.gif) url(../images/pool.gif) url(../images/pokemon.gif) url(../images/pacman.gif)url(../images/optimus.gif) url(../images/bibi.gif) url(../images/office.gif) url(../images/obama.gif) url(../images/nyan.gif) url(../images/molly.gif)url(../images/merry.gif) url(../images/kitty.gif) url(../images/hiro.gif) url(../images/ghost.gif) url(../images/erdogan.gif) url(../images/dig.gif) url(../images/coyote.gif) url(../images/coffee.gif)url(../images/cat.gif) url(../images/bulb.gif) url(../images/britney.gif) url(../images/blackcat.gif) url(../images/birds.gif) url(../images/bibi.gif) url(../images/adams.gif);
+}
+
+}
+
+
+body:before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0; left: 0; right: 0; bottom: 0;
+	border: 20px solid black;
+}
+
+
+.name-wrapper:before {
+	content: "מחולל מבצעי 0.2";
+	position: absolute;
+	top: 1em; left: 50%;
+	width: 100px;
+	margin-left: -50px;
+	font-size: 24px;
+	line-height: 1;
+}
+
+.name-wrapper {
+	font-family: 'chaim';
+	text-align: center;
+	font-size: 128px;
+	line-height: 72px;
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100vw;
+	height: 80vh;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently	*/
+}
+
